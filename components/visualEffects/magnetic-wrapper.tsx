@@ -12,7 +12,7 @@ interface MagneticWrapperProps{
 const MagneticWrapper: FC<MagneticWrapperProps> = ({ className, children }) => {
     const ref = useRef<HTMLDivElement>(null);
     const [position, setPosition] = useState({x: 0, y: 0});
-    const handleMouse = (event: MouseEvent) => {
+    const handleMouse = (event: React.MouseEvent<HTMLDivElement, MouseEvent>) => {
         const { clientX, clientY } = event;
         const boundingRect = ref?.current?.getBoundingClientRect();
         if (boundingRect) {

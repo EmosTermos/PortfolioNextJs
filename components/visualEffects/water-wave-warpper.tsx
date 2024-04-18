@@ -1,6 +1,6 @@
 "use client";
 import { FC, ReactNode } from "react";
-import WaterWave from "react-water-wave"
+import WaterWave from "react-water-wave";
 
 interface WaterWaveWrapperProps {
     imageUrl: string;
