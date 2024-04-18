@@ -8,7 +8,8 @@ export default function ResumeCard() {
     <div>
         <div>
             <p className="text-lg md:text-[1rem] xl:text-[1.125rem] 2xl:text-[1.25rem] font-medium text-primary-foreground">
-                I am an empathetic, analytical, and ambitious individual. 
+                <span>I am an empathetic, analytical, and ambitious person.</span> 
+                <br />
                 My experience in both programming and managing infrastructure, on-premise and cloud-based, has allowed for a comprehensive development within the IT industry. 
                 With a strong technical foundation and interpersonal skills, I effectively collaborate within project teams. My enthusiasm for computer science fuels my commitment to action and continuous improvement. 
                 I am seeking opportunities for growth in the IT field, where I can continue to develop my skills and pursue my professional ambitions.

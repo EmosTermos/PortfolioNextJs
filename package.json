@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build --no-lint",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -18,7 +18,6 @@
     "react-animated-cursor": "^2.11.2",
     "react-dom": "^18",
     "react-icons": "^5.0.1",
-    "react-water-wave": "^2.0.1",
     "swiper": "^11.0.7",
     "tailwind-merge": "^2.2.1"
   },

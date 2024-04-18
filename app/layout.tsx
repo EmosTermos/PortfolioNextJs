@@ -30,20 +30,3 @@ export default function RootLayout({
     </html>
   );
 }
-
-
-// import { FC, ReactNode } from "react";
-
-// interface FeaturedCardProps{
-//     logo?: ReactNode;
-//     title: string;
-//     tag: string;
-//     video: string;
-//     actice: boolean;
-// }
-
-// const FeaturedCard: FC<FeaturedCardProps> = () => {
-//     return <div></div>
-// }
-
-// export default FeaturedCard;
