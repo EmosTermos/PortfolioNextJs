@@ -25,13 +25,13 @@ export default function FullScreenMenu () {
 
       {/*Footer links*/}
       <div className="w-[95%] pl-[5%] absolute bottom-8">
-        <div className="hidden md:flex md:flex-wrap md:items-center md:justify-between md:uppercase text-white">
+        <div className="hidden md:flex md:flex-wrap md:items-center md:justify-between md:uppercase md:text-sm xl:text-base text-white">
 
           <div className="flex items-center gap-4">
             <Link href="https://www.linkedin.com/in/kamil-d-076559217/" target="_blank">LINKEDIN</Link>
             <Link href="https://gitlab.com/Keweon" target="_blank">GITLAB</Link>
+            <Link href="https://github.com/EmosTermos" target="_blank">GITHUB</Link>
             <Link href="https://www.instagram.com/x_emos_/" target="_blank">INSTAGRAM</Link>
-            <Link href="https://twitter.com/VanillaWuj" target="_blank">TWITTER</Link>
           </div>
  
           <div className="flex items-center gap-4">
