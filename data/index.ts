@@ -1,4 +1,4 @@
-import featureData from "./featured";
+import featureData from "./project";
 import { galleryImages } from "./gallery";
 
 export { featureData, galleryImages };

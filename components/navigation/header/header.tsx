@@ -20,6 +20,7 @@ const Header: FC<HeaderProp> = ({open, setOpen}) => {
               <MagneticWrapper className="absolute bottom-5 left-5">
                   <FancyButton
                       text="Let's talk" 
+                      link="/#contact"
                       icon={ <FaArrowRight /> } />
               </MagneticWrapper>
           </div>
@@ -34,27 +35,3 @@ const Header: FC<HeaderProp> = ({open, setOpen}) => {
 }
 
 export default Header;
-
-
-{/* export default function Header() {
-  const [open,setOpen]=useState<boolean>(false)
-  return (
-    <div className="w-full flex items-center justify-center md:justify-between">
-        <Profile />
-        <div className="hidden md:inline">
-            <MagneticWrapper className="absolute bottom-5 left-5">
-                <FancyButton
-                    text="Let's talk" 
-                    icon={ <FaArrowRight /> } />
-            </MagneticWrapper>
-        </div>
-        <ToogleButton open={open} setOpen={setOpen} />
-        <AnimatePresence mode="wait">
-          {
-            open && <FullScreenMenu />
-          }
-        </AnimatePresence>
-
-    </div>
-  )
-} */}
