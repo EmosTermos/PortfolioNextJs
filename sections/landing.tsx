@@ -18,6 +18,7 @@ const LandingSection: FC<LandingProp> = ({ open, setOpen }) => {
         <MagneticWrapper>
                 <FancyButton
                     text="Let's talk" 
+                    link="/#contact"
                     icon={ <FaArrowRight /> } />
           </MagneticWrapper>
       </div>
