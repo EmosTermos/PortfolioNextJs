@@ -1,6 +1,6 @@
-import featuredData from '@/data/featured'
+import projectData from '@/data/project'
 import React, { useState } from 'react'
-import FeaturedCard from '../cards/featured-card'
+import ProjectCard from '../cards/Project/project-card'
 import { cn } from '@/lib/utils'
 
 export default function ExpandableCard() {
@@ -15,18 +15,19 @@ export default function ExpandableCard() {
   return (
     <div className="w-full grid lg:flex lg:justify-between lg:gqp-x-4">
         {
-            featuredData.map((featured, i) => (
+            projectData.map((project, i) => (
                 <div 
                 key={i} 
-                className={cn('relative h-[640px] lg:w-1/3 mb-16 transition-all origin-center duration-300 ease-in-out',
+                className={cn('relative h-[700px] lg:w-1/3 mb-16 transition-all origin-center duration-300 ease-in-out',
                 i === hoverdIndex ? "lg:w-[40%]" : "lg:w-[33%]")}
                 onMouseEnter={() => handleMouseEnter(i)}
                 onMouseLeave={() => handleMouseLeave()}>
-                    <FeaturedCard 
+                    <ProjectCard 
                         active={i === hoverdIndex}
-                        title={featured.title}
-                        tag={featured.tag}
-                        video={featured.video}
+                        title={project.title}
+                        tag={project.tag}
+                        video={project.video}
+                        link={project.link}
                     />
                 </div>
             ))
