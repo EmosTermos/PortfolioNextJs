@@ -18,7 +18,7 @@ export const Timeline: FC<TimelineProps> = ({children}) => {
 interface TimelineItemProps {
     date: string;
     title: string;
-    subTitle: string;
+    subTitle?: string;
     link?: string;
     tag?: string;
     isCourse?: boolean;
@@ -64,7 +64,7 @@ export const TimelineItem :FC<TimelineItemProps> = ({date, title, subTitle, link
 }
 
 interface TimelineBodyProps {
-    subTitle: string;
+    subTitle?: string;
     tag?: string;
     link?: string;
 }

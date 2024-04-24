@@ -21,10 +21,13 @@ export default function EducationCard() {
 }
 
 const educationData = [
-
+  {
+    date: "03/2024 -- Present",
+    title: "Master of Science in Information Technology",
+    subTitle: "Uniwersytet WSB Merito",
+  },
   {
     date: "03/2020 -- 07/2023",
     title: "Bachelor of Science in Information Technology",
-    subTitle: "Uniwersytet WSB Merito",
   }
 ]

@@ -14,7 +14,7 @@ const projectData = [
     {
         title: "Portfolio",
         logo: "",
-        tag: "Frontend, link to repo with frontend",
+        tag: "Frontend, link to repo :)",
         video: portfolio,
         credits: "",
         link: "https://github.com/EmosTermos/porfolio_nextjs",
