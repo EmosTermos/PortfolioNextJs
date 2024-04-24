@@ -19,7 +19,7 @@ export default function MeCard() {
                     <span className="wave">👋</span>
                 </Tag>
                 <Tag text="I'm KAMIL DĄBROWSKI" classname="rounded-tl-2xl  rounded-tr-2xl rounded-br-2xl rounded-bl-2xl" />
-                <Tag text="Full stack develper 🖥️⌨️🌐" classname="rounded-tl-2xl  rounded-tr-2xl rounded-br-2xl rounded-bl-2xl" />
+                <Tag text="DevOps Engineer 🖥️⌨️🌐" classname="rounded-tl-2xl  rounded-tr-2xl rounded-br-2xl rounded-bl-2xl" />
             </div>
         </div>
     </Card>

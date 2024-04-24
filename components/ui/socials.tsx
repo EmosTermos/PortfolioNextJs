@@ -1,4 +1,4 @@
-import { FaLinkedinIn, FaSquareGitlab } from "react-icons/fa6";
+import { FaLinkedinIn, FaSquareGithub, FaSquareGitlab } from "react-icons/fa6";
 
 import React from 'react'
 import Button from "./button";
@@ -22,6 +22,11 @@ const socials = [
     {
         icon: <FaSquareGitlab className="w-4 h-4"/>,
         link: "https://gitlab.com/Keweon",
+        username: "Keweon"
+    },
+    {
+        icon: <FaSquareGithub className="w-4 h-4"/>,
+        link: "https://github.com/EmosTermos",
         username: "Keweon"
     },
     {

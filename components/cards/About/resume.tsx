@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from '@/components/ui/button'
+import ResumeButton from '@/components/ui/resume-button'
 import { FaDownload } from 'react-icons/fa'
 import Socials from '@/components/ui/socials'
 
@@ -20,10 +20,10 @@ export default function ResumeCard() {
         </div>
         <div className="flex items-center justify-between md:absolute md:bottom-6 md:left-6 2xl: md:w-[calc(100%-48px)]">
             <Socials />
-            <Button link='' className="hover:bg-lime-800">
+            <ResumeButton link="../../../public/assets/MyResume.pdf" className="hover:bg-lime-800">
                 <FaDownload/>
                 Resume
-            </Button>
+            </ResumeButton>
         </div>
     </div>
   )
